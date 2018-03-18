@@ -14,7 +14,7 @@ var chocolateBars = [
  // function destructivelyAddElementToBeginningofArray(array, element) {
    // var candy = [array, element.unshift]
     //return candy;
-  }  
+  //}  
   
   function descructivelyAddElementToBeginningOfArray(array, element){
   array.unshift(element)
