@@ -16,8 +16,8 @@ var chocolateBars = [
     return candyBars;
   }  
   
-  function addElementToEndOfArray {
+  function  {
     
   }
   
-  function desctructively
+  function destructivelyAddElementToEndOfArray
