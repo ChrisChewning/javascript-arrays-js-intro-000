@@ -12,12 +12,12 @@ var chocolateBars = [
   }
  
   function destructivelyAddElementToBeginningofArray(array, element) {
-    var candyBars = [element, array.unshift]
-    return candyBars;
+    var candy = [element, array.unshift]
+    return candy;
   }  
   
   function addElementToEndOfArray(array, element) {
-    var sodaPop =[...element, array]
+    var sodaPop = [...element, array]
     return sodaPop;
   }
   
