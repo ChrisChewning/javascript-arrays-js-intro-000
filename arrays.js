@@ -20,6 +20,7 @@ var chocolateBars = [
   array.unshift(element)
   return array
   }
+  
   /*
   function addElementToEndOfArray(array, element) {
     var sodaPop = [...element, array]
