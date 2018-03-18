@@ -24,3 +24,5 @@ function addElementToEndOfArray(choclateBars, candy) {
   chocolateBars.push(candy);
   return chocolateBars;
 }
+
+function 
