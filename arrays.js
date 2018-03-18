@@ -11,11 +11,16 @@ var chocolateBars = [
     return candyBars;
   }
  
- function addElementToBeginningOfArray(chocolateBars, candyString){
-  return [candyString, ...chocolateBars];
+ function addElementToBeginningOfArray(chocolateBars, candy){
+  return [candy, ...chocolateBars];
 }
  
-function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString){
-  chocolateBars.unshift(candyString);
+function destructivelyAddElementToBeginningOfArray(chocolateBars, candy){
+  chocolateBars.unshift(candy);
+  return chocolateBars;
+}
+
+function addElementToEndOfArray(choclateBars, candy) {
+  chocolateBars.push(candy);
   return chocolateBars;
 }
