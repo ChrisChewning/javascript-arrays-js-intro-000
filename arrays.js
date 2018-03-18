@@ -16,6 +16,11 @@ var chocolateBars = [
     return candy;
   }  
   
+  function descructivelyAddElementToBeginningOfArray(array, element){
+  array.unshift(element)
+  return array
+  }
+  /*
   function addElementToEndOfArray(array, element) {
     var sodaPop = [...element, array]
     return sodaPop;
@@ -25,3 +30,4 @@ var chocolateBars = [
     var sodaPop = [element.push, array] 
     return sodaPop;
   }
+  */
