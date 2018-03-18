@@ -16,10 +16,10 @@ var chocolateBars = [
     //return candy;
   //}  
   
-  function descructivelyAddElementToBeginningOfArray(array, element){
-  array.unshift(element)
-  return array
-  }
+ function addElementToEndOfArray(array, element){
+array.push(element)
+return array
+}
   
   /*
   function addElementToEndOfArray(array, element) {
