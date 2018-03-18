@@ -15,4 +15,9 @@ var chocolateBars = [
     var candyBars = [element.unshift, array]
     return candyBars;
   }  
+  
+  function addElementToEndOfArray {
     
+  }
+  
+  function desctructively
