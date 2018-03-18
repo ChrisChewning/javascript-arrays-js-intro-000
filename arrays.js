@@ -11,24 +11,11 @@ var chocolateBars = [
     return candyBars;
   }
  
- // function destructivelyAddElementToBeginningofArray(array, element) {
-   // var candy = [array, element.unshift]
-    //return candy;
-  //}  
-  
- function addElementToEndOfArray(array, element){
-array.push(element)
-return array
+ function addElementToBeginningOfArray(chocolateBars, candyString){
+  return [candyString, ...chocolateBars];
 }
-  
-  /*
-  function addElementToEndOfArray(array, element) {
-    var sodaPop = [...element, array]
-    return sodaPop;
-  }
-  
-  function destructivelyAddElementToEndOfArray(array, element) {
-    var sodaPop = [element.push, array] 
-    return sodaPop;
-  }
-  */
+ 
+function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString){
+  chocolateBars.unshift(candyString);
+  return chocolateBars;
+}
