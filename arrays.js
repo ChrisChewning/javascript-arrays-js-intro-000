@@ -17,10 +17,11 @@ var chocolateBars = [
   }  
   
   function addElementToEndOfArray(array, element) {
-    var candyBars =[...array, element]
+    var sodaPop =[...element, array]
+    return sodaPop;
   }
   
   function destructivelyAddElementToEndOfArray(array, element) {
-    var candyBars = [element.push, array] 
-    return candyBars;
+    var sodaPop = [element.push, array] 
+    return sodaPop;
   }
